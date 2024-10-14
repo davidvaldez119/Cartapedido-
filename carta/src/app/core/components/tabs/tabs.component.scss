@@ -1,0 +1,25 @@
+#container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgb(221, 250, 215);
+    border-radius: 10px 10px 0 0;
+    overflow:hidden;
+    height: 80px;
+}
+
+.tab{
+flex: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+svg{
+    display: block;
+    margin: auto;
+}
+
+}
+.seleccionado{
+ background-color: aqua;
+
+}
